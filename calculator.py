@@ -7,7 +7,11 @@ name = str(input("What is your name?: "))
 
 operation = str(
     input(
-        "Type add for addition sub for subtraction and mul for multiplication: "
+        """
+        Type add for addition sub for
+        subtraction mul for multiplication
+        and div fordivision: 
+        """
     )
 )
 
@@ -45,13 +49,18 @@ elif operation == 'mul':
 
         print("The answer is " + str(result))
 
+
+elif operation == 'div':
+        print("Welcome to the calculator " + name)
+        print("This is a simple calculator that divides two integers... enjoy!")
+
+        num1 = int(input("Enter an integer: "))
+        num2 = int(input("Enter another integer: "))
+
+        result = num1 / num2
+
+        print("The answer is " + str(result))
+
+
 else:
     print("The operation does not exist... Try again.")
-    
-    
-    
-
-## I like the new update...
-## The program runs smoothly
-# Now create Division feature. Good luck! 😘
-
